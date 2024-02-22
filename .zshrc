@@ -3,7 +3,7 @@ PROMPT='%F{red}%n:%F{green}~$ '
 
 # alias
 
-alias od="cd /Users/jsantos/OneDrive\ -\  Home.lan"
+alias od="cd /Users/jsantos/OneDrive\ -\ Home.lan"
 alias dl="cd /Users/jsantos/Downloads"
 alias ls="exa --icons"
 alias ll="exa -l --icons"
@@ -14,3 +14,4 @@ alias cl="clear"
 # evals
 
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
