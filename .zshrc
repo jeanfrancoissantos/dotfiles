@@ -5,9 +5,9 @@ PROMPT='%F{red}%n:%F{green}~$ '
 
 alias od="cd /Users/jsantos/OneDrive\ -\ Home.lan"
 alias dl="cd /Users/jsantos/Downloads"
-alias ls="exa --icons"
-alias ll="exa -l --icons"
-alias tree="exa --tree"
+alias ls="exa -s type --icons"
+alias ll="exa -s type -l --icons"
+alias tree="exa -s type --tree"
 alias cat="bat"
 alias cl="clear"
 
